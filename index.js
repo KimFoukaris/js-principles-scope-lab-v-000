@@ -9,9 +9,8 @@ function setBestCustomer() {
   bestCustomer = 'not bob';
 }
 
-function overwritBestCustomer() {
-  window.bestCustomer = 'maybe bob';
-  return window.bestCustomer;
+function overwritBestCustomer(newName) {
+  window.bestCustomer = newName;
 }
 
 function changeLeastFavoriteCustomer() {
