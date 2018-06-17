@@ -14,6 +14,5 @@ function overwritBestCustomer(newName) {
 }
 
 function changeLeastFavoriteCustomer() {
-  window.leastFavoriteCustomer = 'bill';
-  return window.leastFavoriteCustomer;
+  leastFavoriteCustomer = 'bill';
 }
