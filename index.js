@@ -10,7 +10,7 @@ function setBestCustomer() {
 }
 
 function overwritBestCustomer(newName) {
-  bestCustomer = newName;
+  window.bestCustomer = newName;
 }
 
 function changeLeastFavoriteCustomer() {
